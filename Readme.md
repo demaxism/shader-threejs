@@ -21,6 +21,7 @@ http-server .
 ```
 
 浏览器打开`http://127.0.0.1:8080/`后，点击Simple Shader按钮。
+
 ![](pic_simple_shader.png)
 
 
@@ -80,6 +81,8 @@ this.animate = this.animate.bind(this);
 
 使用:
 浏览器打开`http://127.0.0.1:8080/`后，点击Extend Phong Shading按钮。
+
+![](pic_ext_phong.png)
 
 首先拷贝THREE.ShaderLib.phong，然后更改里面的uniform和fragment shader:
 ```
