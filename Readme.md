@@ -20,7 +20,8 @@ git clone代码后进入文件夹, 启动web server, 比如我用node:
 http-server .
 ```
 
-浏览器打开http://127.0.0.1:8080/后，点击Simple Shader按钮。
+浏览器打开`http://127.0.0.1:8080/`后，点击Simple Shader按钮。
+![](pic_simple_shader.png)
 
 
 代码解释:
@@ -78,7 +79,7 @@ this.animate = this.animate.bind(this);
 文件`extend_phong.js`
 
 使用:
-浏览器打开http://127.0.0.1:8080/后，点击Extend Phong Shading按钮。
+浏览器打开`http://127.0.0.1:8080/`后，点击Extend Phong Shading按钮。
 
 首先拷贝THREE.ShaderLib.phong，然后更改里面的uniform和fragment shader:
 ```
