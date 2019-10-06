@@ -17,13 +17,17 @@
 	</script>
 	
 	<script src="three.min.js"></script>
-	<script src="simple_shader.js"></script>
-	<script src="extend_phong.js"></script>
+	<script src="shader_simple.js"></script>
+	<script src="shader_ext_phong.js"></script>
+	<script src="shader_full_win.js"></script>
 </head>
 <body>
 	<div id="btnCont">
 		<button onclick="simleShader.init();hideButtons()">Simple Shader</button>
 		<button onclick="extPhongShader.init();hideButtons()">Extend Phong Shading</button>
+		<button onclick="fullWindowShader.init(0);hideButtons()">effect 0</button>
+		<button onclick="fullWindowShader.init(1);hideButtons()">effect 1</button>
+		<button onclick="fullWindowShader.init(2);hideButtons()">effect 2</button>
 	</div>
 </body>
 </html>
